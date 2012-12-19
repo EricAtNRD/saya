@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<style-scheme id="saya" _name="Saya" version="1.0">
+<style-scheme id="saya" _name="Saya" version="1.1">
 
   <author>Eric Weik</author>
-  <_description>Customized Oblivion-like scheme</_description>
+  <_description>A dark color scheme (originally based on Oblivion).</_description>
 
   <!-- Tango Palette -->
   <color name="butter1"                     value="#fce94f"/>
@@ -34,16 +34,17 @@
   <color name="aluminium5"                  value="#555753"/>
   <color name="aluminium6"                  value="#3D3B3B"/>
 
-  <!-- NRD: Custom colors. -->
+  <!-- Saya: Custom colors. -->
   <color name="aluminium7"                  value="#1D1B1B"/>
+  <color name="aluminium8"                  value="#0F0F0F"/>
   
 
   <!-- Global Settings -->
-  <style name="text"                        foreground="aluminium2" background="aluminium7"/>
+  <style name="text"                        foreground="aluminium2" background="aluminium8"/>
   <style name="selection"                   foreground="aluminium1" background="aluminium4"/>
   <style name="cursor"                      foreground="aluminium2"/>
-  <style name="current-line"                background="aluminium5"/>
-  <style name="line-numbers"                foreground="aluminium5" background="#black"/>
+  <style name="current-line"                background="aluminium6"/>
+  <style name="line-numbers"                foreground="skyblue3" background="#black"/>
   <style name="draw-spaces"                 foreground="aluminium4"/>
 
   <!-- Bracket Matching -->
@@ -90,6 +91,9 @@
   <style name="diff:diff-file"              foreground="chameleon1" bold="true"/> 
   <style name="diff:location"               foreground="chameleon1"/> 
   <style name="diff:special-case"           foreground="#white" bold="true"/>
+
+  <!-- Plugin specific -->
+  <style name="draw-spaces"                 foreground="aluminium7"/>
 
 </style-scheme>
 
