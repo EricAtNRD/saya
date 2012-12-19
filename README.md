@@ -3,7 +3,7 @@
 ## About ##
 A dark color scheme (originally based on Oblivion) for gtksourceview-3.0 and gedit.
 
-[![Saya Screenshot](https://github.com/circumjacence/saya/raw/master/images/screenshot-660w.png "Saya Screenshot")]
+![saya screenshot](https://github.com/circumjacence/saya/raw/master/images/screenshot-660w.png "Saya Screenshot")
 
 ## Installation ##
 To install this color scheme in gedit 3.x, do the following:
