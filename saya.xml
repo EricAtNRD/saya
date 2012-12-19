@@ -36,7 +36,8 @@
 
   <!-- Saya: Custom colors. -->
   <color name="aluminium7"                  value="#1D1B1B"/>
-  <color name="aluminium8"                  value="#0F0F0F"/>
+  <color name="aluminium8"                  value="#110F0F"/>
+  <color name="skyblue4"                    value="#002a67"/>
   
 
   <!-- Global Settings -->
@@ -44,7 +45,7 @@
   <style name="selection"                   foreground="aluminium1" background="aluminium4"/>
   <style name="cursor"                      foreground="aluminium2"/>
   <style name="current-line"                background="aluminium6"/>
-  <style name="line-numbers"                foreground="skyblue3" background="#black"/>
+  <style name="line-numbers"                foreground="skyblue4" background="#black"/>
   <style name="draw-spaces"                 foreground="aluminium4"/>
 
   <!-- Bracket Matching -->
@@ -58,13 +59,13 @@
   <style name="search-match"                foreground="aluminium1" background="chameleon3"/>
 
   <!-- Comments -->
-  <style name="def:comment"                 foreground="orange1"/>
-  <style name="def:shebang"                 foreground="orange2" bold="true"/>
+  <style name="def:comment"                 foreground="orange3"/>
+  <style name="def:shebang"                 foreground="orange1" bold="true"/>
   <style name="def:doc-comment-element"     italic="true"/>
 
   <!-- Constants -->
   <style name="def:constant"                foreground="butter2"/>
-  <style name="def:string"                  foreground="butter2"/>
+  <style name="def:string"                  foreground="butter1"/>
   <style name="def:special-char"            foreground="plum3"/>
   <style name="def:special-constant"        foreground="plum3"/>
   <style name="def:floating-point"          foreground="plum3"/>
