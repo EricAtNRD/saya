@@ -66,8 +66,8 @@
   <!-- Constants -->
   <style name="def:constant"                foreground="butter2"/>
   <style name="def:string"                  foreground="butter1"/>
-  <style name="def:special-char"            foreground="plum3"/>
-  <style name="def:special-constant"        foreground="plum3"/>
+  <style name="def:special-char"            foreground="orange1" background="orange3"/>
+  <style name="def:special-constant"        foreground="orange1" background="orange3"/>
   <style name="def:floating-point"          foreground="plum3"/>
 
   <!-- Identifiers -->
