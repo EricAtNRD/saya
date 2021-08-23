@@ -3,7 +3,7 @@
 <style-scheme id="saya" _name="Saya" version="1.0">
 
   <author>Eric Weik</author>
-  <_description>A dark color scheme (originally based on Oblivion).</_description>
+  <_description>A dark color scheme (originally based on Oblivion and Tango).</_description>
 
   <!-- Tango Palette -->
   <color name="butter1"                     value="#fce94f"/>
@@ -79,11 +79,29 @@
   <!-- Types -->
   <style name="def:type"                    foreground="chameleon1" bold="true"/> 
 
+  <!-- Markup -->
+  <style name="def:emphasis"                italic="true"/>
+  <style name="def:strong-emphasis"         foreground="orange1"/>
+  <style name="def:inline-code"             foreground="skyblue1"/>
+  <style name="def:insertion"               underline="single"/>
+  <style name="def:deletion"                strikethrough="true"/>
+  <style name="def:link-text"               foreground="aluminium2"/>
+  <style name="def:link-symbol"             foreground="aluminium2" bold="true"/>
+  <style name="def:link-destination"        italic="true" underline="single"/>
+  <style name="def:heading"                 foreground="orange2" bold="true" scale="1.2"/>
+  <style name="def:thematic-break"          foreground="orange2"/>
+  <style name="def:preformatted-section"    foreground="skyblue2"/>
+  <style name="def:list-marker"             foreground="orange3"/>
+
+  <!-- Operators -->
+  <style name="def:operator"                foreground="butter2"/>
+
   <!-- Others -->
   <style name="def:preprocessor"            foreground="plum1"/>
   <style name="def:error"                   foreground="aluminium1" background="scarletred2" bold="true"/>
   <style name="def:note"                    background="butter1" foreground="aluminium4" bold="true"/>
   <style name="def:underlined"              italic="true" underline="true"/>
+  <style name="def:net-address"             italic="true" underline="single"/>
 
   <!-- Language specific -->
   <style name="diff:added-line"             foreground="butter2"/>
@@ -96,5 +114,13 @@
   <!-- Plugin specific -->
   <style name="draw-spaces"                 foreground="aluminium7"/>
 
+  <!-- Heading styles -->
+  <style name="def:heading0"                scale="5.0"/>
+  <style name="def:heading1"                scale="2.5"/>
+  <style name="def:heading2"                scale="2.0"/>
+  <style name="def:heading3"                scale="1.7"/>
+  <style name="def:heading4"                scale="1.5"/>
+  <style name="def:heading5"                scale="1.3"/>
+  <style name="def:heading6"                scale="1.2"/>
 </style-scheme>
 
